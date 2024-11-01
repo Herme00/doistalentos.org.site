@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bl.css">
+    <title>Buscar Livros - Biblioteca Dois Talentos</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img class="logo1" src="img/download.jfif" alt="">
+                <i class="fa-solid fa-bars"  id="openmenu" onclick="openmenu()" ></i>
+                
+                <h1>Dois Talentos</h1>
+                </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="serviços.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="biblioteca.html">Biblioteca</a></li>
+                    <li><a href="portofolio.html">Eventos</a></li>
+                    <div>
+                    <i class="fa-solid fa-circle-xmark" id="close" onclick="closemenu()"></i>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<section id="destaque" class="section-destaque" style="background-image: url(img/Estudo\ sinalização\ Biblioteca\ Deakin.jpg);">
+    <div class="destaque-content">
+        <h2>Bem-vindos à Biblioteca Dois Talentos</h2>
+        <p>Faça download de todos os livros sobre o seu curso e o mundo da saúde.</p>
+        <button id="exploreButton">Explore Mais</button> 
+    </div>
+</section>
+
+
+    <h2>Livros Disponíveis</h2>
+    <section id="bookdtList">
+        
+        <div id="bookdts"></div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Dois Talentos. Todos os direitos reservados.Herme Marketing</p>
+    </footer>
+   
+ 
+
+    <script src="biblioteca.js"></script>
+</body>
+</html>
